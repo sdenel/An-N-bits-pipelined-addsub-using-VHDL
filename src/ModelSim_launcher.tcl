@@ -1,5 +1,5 @@
 quit -sim
-cd /home/simon/Bureau/VSIM
+cd /YOUR_WORKING_DIRECTORY/VSIM
 vcom -check_synthesis *.vhd
 vsim work.tb_addsub_rtl(bench)
 add wave -position end  sim:/tb_addsub_rtl/clk
